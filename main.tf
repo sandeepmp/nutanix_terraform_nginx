@@ -37,7 +37,7 @@ provider "windows-dns" {
 #Define Static IP for VM
 variable "ip" {
   type    = "string"
-  default = "10.136.103.115"
+  default = "IP_for_VM"
 }
 
 #Define image for VM
